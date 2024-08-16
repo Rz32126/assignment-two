@@ -61,7 +61,6 @@
     font-style: italic;
     font-weight: 300px;
 }
-
 /* nav styles */
 nav{
     display: flex;
@@ -140,7 +139,7 @@ nav li a {
     .banner{
         flex-direction: column;
         margin: 5px 5px;
-        width: 390px;
+        width: 100%;
     }
     .banner-text{
         width: 290px;
@@ -150,7 +149,7 @@ nav li a {
         width: 100%;
     }
     .icon-pic{
-        display: block;
+        display: none;
         background-color: #FFFFFF;
     }
     .navbar{
@@ -211,7 +210,7 @@ nav li a {
         align-items: center;
         position: absolute;
         margin-left: 50px;
-        top: 1560px;
+        top: 1400px;
     }
 }
 .main{
@@ -362,10 +361,10 @@ nav li a {
         flex-direction: column;
         margin-left: 10px;
         height: 100%;
-        width: 287px;
+        width: 350px;
     }
     .another-pic{
-        width: 287px;
+        width: 300px;
         height: 130px;
         margin-left: 90px;
     }
@@ -515,23 +514,23 @@ nav li a {
     }
     .bmi-1 input{
         height: 48px;
-        width: 170px;
+        width: 150px;
     }
     .bmi-2 input{
         height: 48px;
-        width: 170px;
+        width: 150px;
     }
     .bmi-3 input{
         height: 48px;
-        width: 170px;
+        width: 150px;
     } 
     .bmi-4 select{
-        height: 48px;
-        width: 170px;
+        height: 60px;
+        width: 175px;
     }                 
     .bmi-5 select{
         border-radius: 8px;
-        width: 340px;
+        width: 360px;
         height: 59px;
         background-color: #FFFFFF1A;
         padding: 12px 20px 12px 20px;
